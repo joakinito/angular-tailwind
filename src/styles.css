@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .boton{   @apply bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded }
+    .boton-1{ @apply bg-blue-500 text-white font-bold py-2 px-4 rounded}
+    .label{  @apply block text-gray-700 text-sm font-bold mb-2}
+    .iput{   @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none }
+
+    
+}
